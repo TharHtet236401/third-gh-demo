@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Get code
         uses: actions/checkout@v3
-      - name :Get Cache
+      - name: Get Cache
         uses: actions/cache@v3
         with:
           path: ~/.npm
